@@ -1,0 +1,61 @@
+.navbar {
+    display: grid;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hooksCss {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.todo-list {
+    background: #a9a7a7;
+}
+
+.todo-list ul {
+    padding: 15px;
+}
+
+.todo-list li {
+    background: rgb(240, 240, 240);
+    list-style: none;
+    margin: 15px 0px;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+
+.qcont:first-letter {
+    text-transform: capitalize
+}
+
+.qcont:hover {
+    opacity: 0.8;
+    text-decoration: line-through;
+}
+
+.btnSubmit{
+    width: 10% !important;
+}
+.LinkTo{
+    margin: 20px;
+    font-size:15px;
+}
+.ButtonTo{
+    margin: 20px;
+    font-size:15px;
+}
