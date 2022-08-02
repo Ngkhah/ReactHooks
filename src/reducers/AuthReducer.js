@@ -3,8 +3,8 @@ import {
 } from "./types"
 
 export const AuthReducer = (state, action) => {
-    const {type} = action
-    switch (type){
+    const { type } = action
+    switch (type) {
         case TOGGOLE_AUTH:
             return !state
         default:
